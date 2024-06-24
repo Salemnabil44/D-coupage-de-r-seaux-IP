@@ -43,7 +43,7 @@ On cherche dans le tableau des puissances de 2 ci-dessous le nombre supérieur �
 - **Sous-réseau 1 Informatique :** 50 équipements → Besoin de 2 bits supplémentaires pour adresses réseau et broadcast, donc 2^6 = 64 adresses.
 - **Sous-réseau 2 Développement :** 12 équipements → Besoin de 2 bits supplémentaires pour adresses réseau et broadcast, donc 2^4 = 16 adresses.
 - **Sous-réseau 3 Administratif :** 20 équipements → Besoin de 2 bits supplémentaires pour adresses réseau et broadcast, donc 2^5 = 32 adresses.
-- **Sous-réseau 4 Technicien :** 15 équipements → Besoin de 2 bits supplémentaires pour adresses réseau et broadcast, donc 2^4 = 16 adresses.
+- **Sous-réseau 4 Technicien :** 15 équipements → Besoin de 2 bits supplémentaires pour adresses réseau et broadcast, donc 2^5 = 32 adresses.
 
 ### Calcul du CIDR :
 - Pour 64 adresses : 2^6 = 64 → CIDR = /26 (32 - 6 = 26)
@@ -71,7 +71,7 @@ On cherche dans le tableau des puissances de 2 ci-dessous le nombre supérieur �
    - Adresse de broadcast : 172.16.1.111
 
 4. **Sous-réseau 4 : Technicien**
-   - Adresse du réseau : 172.16.1.112/28
+   - Adresse du réseau : 172.16.1.112/27
    - Début de la plage IP disponible : 172.16.1.113
    - Fin de la plage IP disponible : 172.16.1.126
-   - Adresse de broadcast : 172.16.1.127
+   - Adresse de broadcast : 172.16.1.144
